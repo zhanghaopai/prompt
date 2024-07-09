@@ -1,0 +1,18 @@
+我需要依照这篇论文的方法思路去回顾别的论文，以此梳理总结出一个大语言模型与人类交互的文献综述，论文中提到需要将文献中交互发生的时候分为四个阶段，分别是
+（1）Planning (before an interaction)；
+（2）Facilitating (during an interaction)；
+（3）Iterating (refining an established interaction)；
+（4）Testing (testing a defined interaction)，
+以及论文数据中分类类别一共有11一种，分别为：
+Text-based Conversational Prompting；
+Text-based Conversational Prompting with Reasoning；
+UI for Structured Prompts Input；
+UI for Varying Output；
+UI for Iteration of Interaction；
+UI for Testing of Interaction；
+UI for Reasoning；
+Explicit Context；
+Implicit Context；
+Team Process Facilitating；
+Capability-aware Task Delegation.
+这篇论文里面有对每一个阶段和每一个类别的详细介绍，如果你能理解我的问题，请你重新复述一遍我的问题.

@@ -1,3 +1,3 @@
-api_key=""
+api_key="sk-Eyyc7yPORqVZVeL2pwdO7WuiAYfxLiD3QrZHkhKlWvxFhS11"
 temperature=0.3
 max_tokens=4096

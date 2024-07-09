@@ -3,7 +3,7 @@ from pathlib import Path
 
 from openai import OpenAI
 
-from account import api_key
+from config import api_key, temperature, max_tokens
 
 client = OpenAI(
     api_key=api_key,
@@ -53,8 +53,8 @@ def chatWithFile(filePath, query):
     completion = client.chat.completions.create(
         model=model,
         messages=message_list,
-        temperature=0.3,
-        max_tokens=4096
+        temperature=temperature,
+        max_tokens=max_tokens
     )
     result = completion.choices[0].message.content
     return result

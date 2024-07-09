@@ -1,11 +1,12 @@
 import time
-import os
 from pathlib import Path
 
 from openai import OpenAI
 
+from account import api_key
+
 client = OpenAI(
-    api_key="sk-DcTyNztpGYGOnslp1VCvcnp4ZuJ1giQvwn96IKBqbe1HP9Fg",
+    api_key=api_key,
     base_url="https://api.moonshot.cn/v1"
 )
 model = "moonshot-v1-128k"
@@ -94,7 +95,6 @@ def main():
                            "（6）这么分类的原因（必须严格贴合原文）；如果没有副分类请直接给出没有，没有凭空捏造或者过度归纳。")
     print("A2:", result2)
     history.append(result2)
-
 
 
 if __name__ == '__main__':
